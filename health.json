@@ -1,0 +1,13 @@
+{
+ "last_run_utc": "2026-11-06T20:48+00:00",
+ "runner": "railway",
+ "forecast_utc": "2026-11-06T20:48+00:00",
+ "sat_sst": "2026-11-04",
+ "sat_age_days": 2,
+ "steps": {
+  "net": 1,
+  "ocean": 1,
+  "forecast": 1,
+  "build": 1
+ }
+}

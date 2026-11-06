@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "generated_utc": "2026-11-06T20:48+00:00",
+ "published_utc": "2026-11-06T20:48+00:00",
+ "sat": {
+  "sst": "2026-11-04",
+  "chl": "2026-11-03",
+  "olci_from": "2026-10-29",
+  "olci_to": "2026-11-04",
+  "from_cache": []
+ },
+ "sat_age_days": 2,
+ "places": 760,
+ "hours": 24,
+ "bytes": 7819968,
+ "min_app": "0.4",
+ "runner": "railway",
+ "note": "Lbhar daily products - summary (3-hourly flags/scores), fc/<id>.json (hourly series), ocean/ (satellite layers)"
+}
