@@ -1,0 +1,39 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lbhar – Politique de confidentialité</title><style>
+body{font:16px/1.6 system-ui,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;color:#13212f}
+h1{font-size:26px}h2{font-size:18px;margin-top:28px}.rtl{direction:rtl;text-align:right}a{color:#0F5C7A}</style></head><body>
+<h1>Lbhar (لبحر) – Politique de confidentialité</h1>
+<p>Dernière mise à jour : 19 octobre 2026. Éditeur : <b>Atlas Labs</b>. Contact : atlaslabsdaba@gmail.com</p>
+<p><a href="#en">English</a> · <a href="#ar">العربية</a> · <a href="delete/">Supprimer mon compte / Delete my account</a></p>
+
+<h2>1. Ce que l’application fait sans aucune donnée personnelle</h2>
+<p>La carte, les drapeaux de baignade, les prévisions, les cartes de poissons et l’assistant Kessba fonctionnent sans compte. L’application consulte des services publics de météo et de cartes (Open-Meteo, Esri, CARTO) en ne transmettant que les coordonnées du lieu affiché. Les images de la caméra utilisées par Kessba sont <b>traitées uniquement sur votre téléphone</b> et ne sont jamais enregistrées ni envoyées.</p>
+
+<h2>2. Données collectées si vous créez un compte (facultatif)</h2>
+<ul>
+<li><b>Compte</b> : nom d’utilisateur, nom affiché, ville (facultative) et mot de passe, stocké uniquement sous forme d’empreinte salée (SHA-256 itéré). Aucun e-mail ni numéro de téléphone n’est demandé.</li>
+<li><b>Prises</b> : espèce, nombre, poids, longueur, technique, date, position choisie sur la carte ou par GPS, note et photo facultative. Après validation par un administrateur, la prise est publiée dans le fil « Communauté » sous votre <b>nom affiché</b> (pseudonyme de votre choix, jamais votre nom d’utilisateur), avec une position arrondie (~100 m). Les autres utilisateurs connectés peuvent l’« aimer » : un « j’aime » enregistre seulement l’identifiant de la prise et de votre compte. Identification d’un poisson par photo (facultative) : la photo est envoyée au serveur Lbhar, transmise à Google Gemini pour l’identification, puis n’est pas conservée.</li>
+</ul>
+<p>L’application ne lit ni vos contacts, ni vos messages, ni vos fichiers, ni votre historique de navigation. Elle ne contient aucune publicité ni aucun SDK tiers de suivi.</p>
+
+<h2>3. Où sont stockées les données</h2>
+<p>Les données de compte et de prises sont transmises chiffrées (HTTPS/TLS) et stockées dans l’espace Google sécurisé de l’éditeur (Google Apps Script, Google Sheets, Google Drive), chiffré au repos par Google, qui agit comme hébergeur. Elles ne sont ni vendues ni louées. Des statistiques agrégées et anonymes (espèces, mois, zones) peuvent être affichées dans l’application ou publiées pour la recherche halieutique.</p>
+
+<h2>4. Conservation et suppression</h2>
+<p>Vous pouvez supprimer votre compte à tout moment dans l’application (Compte → Supprimer mon compte, mot de passe demandé) : nom d’utilisateur, nom affiché, ville et mot de passe sont effacés immédiatement ; les prises déjà validées restent dans la base de façon anonyme. Pour une suppression complète, y compris des photos, écrivez à atlaslabsdaba@gmail.com (réponse sous 30 jours). Voir aussi <a href="delete/">la page de suppression</a>.</p>
+
+<h2>5. Autorisations</h2>
+<p>Appareil photo : assistant Kessba (traitement local) et photo d’une prise. Localisation (au premier plan seulement) : « Ma position », tri des plages par distance, position d’une prise, Kessba. Réseau : prévisions, cartes, envoi des prises.</p>
+<p>Lbhar donne des indications, pas des garanties : suivez toujours les consignes des sauveteurs et de la Protection civile. L’application s’adresse aux adultes.</p>
+
+<h2 id="en">English</h2>
+<p><b>Publisher: Atlas Labs</b> (contact atlaslabsdaba@gmail.com). The map, swim flags, forecasts, fish maps and the Kessba assistant work without an account; only the coordinates of the displayed place are sent to public weather and map services (Open-Meteo, Esri, CARTO). Kessba camera frames are processed on the phone only and never stored or uploaded. No ads, no third-party tracking SDK.</p>
+<p><b>Optional account:</b> username, display name, optional town and a password stored as a salted iterated hash. <b>Catches:</b> species, count, weight, length, method, date, position (map or GPS), note and optional photo; published after validation in the Community feed under your display name (a pseudonym you choose, never your username) with a rounded (~100 m) position; signed-in users can like it (a like stores only the catch id and the account id). Optional photo fish identification: the photo is sent to the Lbhar server, forwarded to Google Gemini for identification and not kept. Data are sent over HTTPS and stored in the publisher’s secure Google space (Apps Script, Sheets, Drive), encrypted at rest; never sold. Aggregated anonymous statistics may be shown or published for fisheries research.</p>
+<p><b>Deletion:</b> in the app (Account → Delete my account) your username, display name, town and password are erased immediately; validated catches stay anonymised. Full deletion including photos: e-mail atlaslabsdaba@gmail.com (within 30 days). See the <a href="delete/">deletion page</a>. Permissions: camera (Kessba, local processing; catch photo), foreground location, network.</p>
+
+<h2 id="ar" class="rtl">العربية</h2>
+<div class="rtl">
+<p><b>الناشر: Atlas Labs</b> (للتواصل: atlaslabsdaba@gmail.com). تعمل الخريطة وأعلام السباحة والتوقعات وخرائط الأسماك ومساعد القصبة بدون حساب؛ تُرسَل فقط إحداثيات المكان المعروض إلى خدمات الطقس والخرائط العامة (Open-Meteo، Esri، CARTO). تُعالَج صور كاميرا القصبة على الهاتف فقط ولا تُحفَظ ولا تُرسَل. لا إعلانات ولا أدوات تتبع خارجية.</p>
+<p><b>حساب اختياري:</b> اسم مستخدم، اسم معروض، مدينة اختيارية وكلمة سر مخزّنة كبصمة مملّحة. <b>الصيدات:</b> النوع، العدد، الوزن، الطول، الطريقة، التاريخ، الموقع (خريطة أو GPS)، ملاحظة وصورة اختيارية؛ تُنشر بعد المصادقة في صفحة «المجتمع» باسمك المعروض (اسم مستعار تختاره، وليس اسم المستخدم) وبموقع مقرَّب (~100 م)؛ يمكن للمستخدمين المسجّلين الإعجاب بها (يُخزَّن فقط معرّف الصيدة ومعرّف الحساب). التعرّف على السمكة بالصورة (اختياري): تُرسَل الصورة إلى خادم لبحر ثم إلى Google Gemini للتعرّف عليها ولا تُحفَظ. تُرسَل البيانات عبر HTTPS وتُخزَّن في فضاء Google الآمن للناشر (Apps Script، Sheets، Drive) مشفّرة؛ لا تُباع أبداً.</p>
+<p><b>الحذف:</b> من التطبيق (حسابي ← حذف حسابي) يُمحى اسم المستخدم والاسم المعروض والمدينة وكلمة السر فوراً؛ تبقى الصيدات المصادق عليها مجهولة الهوية. للحذف الكامل بما فيه الصور راسل atlaslabsdaba@gmail.com (خلال 30 يوماً). الأذونات: الكاميرا (القصبة، معالجة محلية؛ صورة الصيدة)، الموقع في المقدمة فقط، الشبكة.</p>
+</div>
+</body></html>
